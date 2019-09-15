@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+	<header class="encabezado">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-2">
+    			<img src="http://3.bp.blogspot.com/-lXpgdmM0hfA/USkg6fw1-zI/AAAAAAAAANY/CIH5Hj3Q9kc/s1600/%C3%ADndice.jpeg"class="icono_header">
+    			</div>
+    			<div class="col-5">	
+		    		<p class="titulo">Laboratorio de Consulta<br>Estructurado</p>
+		    	</div>
+  			</div>	
+		</div>
+	</header><br>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-6">
+				<h2>Laboratorio SQL</h2>
+				<p>Ingreso al sistema para poder hacer uso del laboratorio</p>
+				<img src="https://reportedigital.com/wp-content/uploads/2018/07/base-de-datos.jpg" class="img-fluid">	
+			</div>
+			<div class="col-12 col-lg-6">
+				<form class="form-signin text-center">
+				  	<img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+					<h1 class="h3 mb-3 font-weight-normal">Log In</h1>
+					<label for="inputUsuario" class="sr-only">Usuario</label>
+					<input type="email" id="inputEmail" class="form-control" placeholder="Usuario" required="" autofocus="">
+					<label for="inputContraseña" class="sr-only">Contraseña</label>
+					<input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required="">
+					<div class="checkbox mb-3">
+					<label>
+					    <input type="checkbox" value="remember-me"> Recuerdame
+					</label>
+					</div>
+					<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+				</form>
+			</div>
+		</div>
+	</div><br>
+
+	<script>
+		$(document).ready(function){
+			$('#Ejemplos').clickfunction(){
+				$('section').load("Ejemplos.html");
+											});
+			$('#Ejercicios').clickfunction(){
+				$('section').load("Ejercicios.html");
+											});
+	</script>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-3 col-sm-2"><a href="index.html"><u>Ejemplos</u></a></div>
+			<div class="col-xs-3 col-sm-2"><a href="Ejercicios.html"><u>Ejercicios</u></a></div>		
+		</div>
+	</div><br>
+
+	<div class="container" id="section">
+	<div class="row">
+		<div class="col-12 col-md-6 col-lg-3">
+			<img src="https://i0.wp.com/www.witigos.es/wp-content/uploads/2015/03/MySQL-Logo.png" class="img-fluid size_image">
+			<p>Ejemplo de uso de las sentencias de creacion de tablas.</p>				
+		</div>
+		<div class="col-12 col-md-6 col-lg-3">
+			<img src="https://i.pinimg.com/736x/02/68/c7/0268c78fb61ec249f30b83c8cabf6780.jpg" class="img-fluid size_image">
+			<p>Ejemplo de uso de la sentencia de insercion de datos en la base de datos.</p>
+		</div>
+		<div class="col-12 col-md-6 col-lg-3">
+			<img src="https://codebabes.com/sites/default/files/blog-content-img/inner_join.png" class="img-fluid size_image">
+			<p>Ejemplo de uso de las consultas anidadas con la sentencia IN.</p>
+		</div>
+		<div class="col-12 col-md-6 col-lg-3">
+			<img src="https://intellipaat.com/mediaFiles/2015/08/MongoDB-CRUD-operations.jpg"  class="img-fluid size_image">
+			<p>Ejemplo de uso de sentencias DML en la base de datos MySQL</p>
+		</div>
+		<div class="clearfix visible-block visible-lg-inline"></div>
+	</div>
+</div>
+
+
+	<footer class="footer py-3">
+	  	<div class="container">
+	  		<div class="row">
+	  			<div class="col-5 col-md-4">
+	  				<h5>Carlos Mendoza 1151438</h5>
+	  				<span class="text-muted">Ingenieria de Sistemas<br>2 semestre 2019</span>
+	  			</div>
+	  			<div class="col-7 col-md-6">
+	  				<p class="white">Hasta la fecha en la asignatura de programacion web se han visto los siguientes temas:<br>
+	  					*HTML<br>*CSS<br>*JavaScript</p>
+	  			</div>
+	  			<div class="d-none d-md-block col-md-2 ">
+	  				<img src="https://www.pcsignos.com.ar/imagenes/iconos/81.png" class="img-fluid rounded-circle">
+	  			</div>
+	  		</div>   	
+	  	</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
